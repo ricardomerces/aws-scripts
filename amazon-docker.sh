@@ -5,6 +5,6 @@
 ########################################
 
 yum update -y
-yum install docker -y
-usermod -a -G docker ec2-user
+yum install -y docker
 service docker start
+usermod -a -G docker ec2-user
